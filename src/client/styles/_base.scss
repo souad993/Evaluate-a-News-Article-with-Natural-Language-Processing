@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+}
+strong,
+#results,
+#polarity,
+#agreement,
+#subjectivity,
+#confidence,
+#irony {
+  display: flex;
+  justify-content: center;
+}
+
+strong {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 10px;
+}
